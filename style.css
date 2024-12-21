@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Шапка */
+header {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* О бренде */
+.about {
+    padding: 40px 0;
+    background: #f7ede2;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Популярные вкусы */
+.flavors {
+    padding: 40px 0;
+}
+
+.flavors h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flavor-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.flavor-item {
+    text-align: center;
+    flex: 1 1 calc(33.333% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    background: white;
+}
+
+.flavor-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.flavor-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Контакты */
+.contact {
+    padding: 40px 0;
+    background: #f1faee;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #2cb163;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Подвал */
+footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+h2{
+    text-align: center;
+}
+.smak{
+    border: 3px solid black;
+}
